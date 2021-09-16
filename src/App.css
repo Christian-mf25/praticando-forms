@@ -1,0 +1,17 @@
+div, form, input, span, h1, h2, h3, p, label, img, header, section, nav, button, input:focus{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.App {
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.instruction{ 
+  text-align: left;
+}
+

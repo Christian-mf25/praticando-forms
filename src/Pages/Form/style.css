@@ -1,0 +1,96 @@
+.register{
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.filedForm{
+	border-radius: 30px;
+
+	background-color: #67c1eb;
+}
+
+.registerForm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+  
+	width: 70vw;
+	height: 55vh;  
+
+	margin-top: 20px;
+}
+
+.inputInfo{
+	height: 20px;
+	width: 50vw;
+
+	padding-left: 10px;
+
+	font-size: 1rem;
+	color: #2e2e2e;
+
+	border-radius: 5px;
+	background-color: #aedaee;
+}
+	.inputInfo::placeholder{
+		font-size: 1rem;
+
+		color: #7e7e7e;
+	}
+	.inputInfo:focus{
+		padding-left: 10px;
+	}
+
+.erroMessage{
+	color: #000;
+
+	height: 15px;
+
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+.registerButton{
+	background-color: #7aa2d6;
+	border: 2px solid #3b7fcc;
+	border-radius: 5px;
+
+	width: 30vw;
+	height: 25px;
+	
+	font-size: 1rem;
+	font-weight: 600;
+	color: #333333;
+
+	cursor: pointer;
+
+	margin-bottom: 20px;
+}
+
+.registerButton:hover{
+	filter: brightness(0.9);
+	color: #fff;
+}
+
+@media (min-width:700px){
+	.filedForm .registerForm{
+		max-width: 588px;
+	}
+
+	.inputInfo{
+		height: 30px;
+		max-width: 300px;
+	}
+
+	.registerButton{
+		max-width: 200px;
+	}
+
+	.erroMessage{
+		font-size: 1rem;
+	}
+}
